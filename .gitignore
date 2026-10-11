@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Runtime data
+*.cjs.mjs
+*.d.mts
+*.d.cts
+*.mjs
+*.cjs
+*.tsbuildinfo
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Vite-specific
+.vite/
+
+# Original media assets
+Materials/
+
+# Trae project settings
+.trae/
+
+# Exclude original materials and Trae files
+/Materials/
+/.trae/
+
+# Exclude oversized media from Git
+/public/harp/Vienna v1.mov
+/public/harp/Vienna v2.mov
+/public/harp/Vienna v3.mov
+/public/documents/drama/Drama ppt 1.pdf
