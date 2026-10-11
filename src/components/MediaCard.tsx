@@ -10,6 +10,7 @@ export interface MediaCardProps {
   extraTag?: string
   extraTagColor?: "forest" | "wine" | "gold"
   className?: string
+  aspectClass?: string
   onImageClick?: (imageUrl: string) => void
 }
 
@@ -29,6 +30,7 @@ const MediaCard: React.FC<MediaCardProps> = ({
   extraTag,
   extraTagColor = "wine",
   className = "",
+  aspectClass = "aspect-[4/3]", // Default aspect ratio if not provided
   onImageClick,
 }) => {
   const [videoDimensions, setVideoDimensions] = useState({ width: 0, height: 0 })
@@ -53,7 +55,7 @@ const MediaCard: React.FC<MediaCardProps> = ({
 
   return (
     <figure className={`media-card group ${className}`}>
-      <div className={`relative w-full h-auto overflow-hidden bg-cream-deep ${!isVideo ? '' : ''}`}
+      <div className={`relative w-full h-auto overflow-hidden bg-cream-deep ${aspectClass} ${!isVideo ? '' : ''}`}
         style={videoWrapperStyle}
       >
         {isVideo ? (
