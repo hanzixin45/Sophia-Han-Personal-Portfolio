@@ -2,6 +2,8 @@ import { timelineEvents, productions } from "../data/drama"
 import MediaCard from "../components/MediaCard"
 import React, { useState } from "react"
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 export default function Drama() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const [showLightbox, setShowLightbox] = useState<boolean>(false)
@@ -111,54 +113,54 @@ export default function Drama() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <div className="relative col-span-1">
             <img
-              src="/images/drama/PPT 1.png"
+              src={`${BASE_URL}images/drama/PPT 1.png`}
               alt="Drama Club Presentation Slide 1"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/PPT 1.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/PPT 1.png`)}
             />
           </div>
           <div className="relative col-span-1">
             <img
-              src="/images/drama/PPT 2.png"
+              src={`${BASE_URL}images/drama/PPT 2.png`}
               alt="Drama Club Presentation Slide 2"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/PPT 2.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/PPT 2.png`)}
             />
           </div>
           <div className="relative col-span-1">
             <img
-              src="/images/drama/PPT 3.png"
+              src={`${BASE_URL}images/drama/PPT 3.png`}
               alt="Drama Club Presentation Slide 3"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/PPT 3.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/PPT 3.png`)}
             />
           </div>
           <div className="relative col-span-1 sm:col-span-2 lg:col-span-1"> {/* This will make it span 2 columns on small/medium screens, 1 on large */}
             <img
-              src="/images/drama/PPT 4.png"
+              src={`${BASE_URL}images/drama/PPT 4.png`}
               alt="Drama Club Presentation Slide 4"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/PPT 4.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/PPT 4.png`)}
             />
           </div>
           <div className="relative col-span-1 lg:col-span-1">
             <img
-              src="/images/drama/PPT 5.png"
+              src={`${BASE_URL}images/drama/PPT 5.png`}
               alt="Drama Club Presentation Slide 5"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/PPT 5.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/PPT 5.png`)}
             />
           </div>
         </div>
 
         <div className="text-center mt-10 space-y-4"> {/* Added space-y-4 for vertical spacing */}
           <a
-            href="/documents/drama/Drama ppt 1.pdf"
+            href={`${BASE_URL}documents/drama/Drama ppt 1.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-wine hover:bg-wine-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wine-dark"
@@ -169,7 +171,7 @@ export default function Drama() {
             </svg>
           </a>
           <a
-            href="/documents/drama/SMS Drama ppt 2.pdf"
+            href={`${BASE_URL}documents/drama/SMS Drama ppt 2.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-wine hover:bg-wine-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wine-dark"
@@ -235,29 +237,29 @@ export default function Drama() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <div className="relative col-span-1">
             <img
-              src="/images/drama/Post 1.png"
+              src={`${BASE_URL}images/drama/Post 1.png`}
               alt="Promotional Post 1"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/Post 1.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/Post 1.png`)}
             />
           </div>
           <div className="relative col-span-1">
             <img
-              src="/images/drama/Post 2.png"
+              src={`${BASE_URL}images/drama/Post 2.png`}
               alt="Promotional Post 2"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/Post 2.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/Post 2.png`)}
             />
           </div>
           <div className="relative col-span-1">
             <img
-              src="/images/drama/Post 3.png"
+              src={`${BASE_URL}images/drama/Post 3.png`}
               alt="Promotional Post 3"
               loading="lazy"
               className="w-full h-auto object-contain rounded-lg shadow-lg cursor-pointer"
-              onClick={() => handleImageClick('/images/drama/Post 3.png')}
+              onClick={() => handleImageClick(`${BASE_URL}images/drama/Post 3.png`)}
             />
           </div>
         </div>
