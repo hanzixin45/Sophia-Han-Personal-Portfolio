@@ -77,7 +77,7 @@ export const harpPerformances: HarpItem[] = [
   {
     id: "h-g11-v2",
     type: "video",
-    videoUrl: "/harp/Vienna v2.mov",
+    videoUrl: "/harp/Vienna v2_compressed.mp4",
     imageUrl: "/harp/Vienna v2_cover.jpg",
     title: "Vienna Musikverein Competition Video II",
     date: "2026年7月 · G12",
