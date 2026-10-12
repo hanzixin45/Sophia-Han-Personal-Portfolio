@@ -58,25 +58,7 @@ export default function About() {
               in scents and ancient texts, I question faith and identity.
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4 animate-fade-in-delay-2">
-              <a
-                href="#bio"
-                className="btn-outline"
-              >
-                Learn More
-                <span aria-hidden>↓</span>
-              </a>
-              {exploreButtons.map((button) => (
-                <a
-                  key={button.label}
-                  href={button.href}
-                  className={button.className}
-                >
-                  {button.label}
-                  <span aria-hidden>{button.icon}</span>
-                </a>
-              ))}
-            </div>
+
           </div>
           <div className="lg:col-span-5 animate-fade-in-delay-1">
             <div className="relative mx-auto max-w-md lg:max-w-none">

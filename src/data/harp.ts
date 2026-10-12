@@ -312,27 +312,8 @@ export const harpPerformances: HarpItem[] = [
     location: "Shenzhen Middle School Education Group Annual Concert",
     description: "Video of our orchestra performing 'The Moldau' and Shostakovich's Symphony No. 5.",
   },
-  {
-    id: "h-practice-1",
-    type: "photo",
-    imageUrl: "/harp/Daily Practice.jpg",
-    title: "Daily Practice",
-    date: "2024年10月",
-    location: "Music Room",
-    description:
-      "Four hours of daily practice before the World Student Arts Festival competition.",
-  },
-  {
-    id: "h-practice-v1",
-    type: "video",
-    videoUrl: "/videos/harp/Practice.mp4",
-    imageUrl: "/harp/Practice_cover.jpg",
-    title: "Daily Practice Video",
-    date: "2024年10月",
-    location: "Music Room",
-    description:
-      "Video of daily practice before the World Student Arts Festival competition.",
-  },
+
+
 
 
 ]
