@@ -67,7 +67,7 @@ export const harpPerformances: HarpItem[] = [
   {
     id: "h-g11-v1",
     type: "video",
-    videoUrl: "/harp/Vienna v1.mov",
+    videoUrl: "/harp/Vienna v1_compressed.mp4",
     imageUrl: "/harp/Vienna v1_cover.jpg",
     title: "Vienna Musikverein Performance Video I",
     date: "2026年7月 · G12",
@@ -87,7 +87,7 @@ export const harpPerformances: HarpItem[] = [
   {
     id: "h-g11-v3",
     type: "video",
-    videoUrl: "/harp/Vienna v3.mov",
+    videoUrl: "/harp/Vienna v3_compressed.mp4",
     imageUrl: "/harp/Vienna v3.jpg",
     title: "World Student Arts Festival Competition Video",
     date: "2026年7月 · G12",
