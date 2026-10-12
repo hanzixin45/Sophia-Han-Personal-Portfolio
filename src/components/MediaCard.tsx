@@ -76,7 +76,7 @@ const MediaCard: React.FC<MediaCardProps> = ({
             alt={title}
             loading="lazy"
             className="h-full w-full object-contain cursor-pointer"
-            onClick={() => onImageClick && onImageClick(new URL(imageUrl, import.meta.env.BASE_URL).href)}
+            onClick={() => onImageClick && onImageClick(imageUrl)}
           />
         )}
         {isVideo && (

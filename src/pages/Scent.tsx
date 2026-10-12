@@ -2,8 +2,6 @@ import React, { useState } from "react"
 import { scents, echoScentIntro } from "../data/scent"
 import MediaCard from "../components/MediaCard"
 
-const BASE_URL = import.meta.env.BASE_URL;
-
 interface VisualDesignItem {
   id: string;
   imageUrl: string;
@@ -29,7 +27,7 @@ const visualDesignProjects: VisualDesignProject[] = [
     items: [
       {
         id: "dcm-1",
-        imageUrl: `${BASE_URL}images/creative-studio/Drama Club Product 1.png`,
+        imageUrl: "/images/creative-studio/Drama Club Product 1.png",
         title: "Drama Club Product 1",
         year: "2023",
         organization: "Drama Club",
@@ -38,7 +36,7 @@ const visualDesignProjects: VisualDesignProject[] = [
       },
       {
         id: "dcm-2",
-        imageUrl: `${BASE_URL}images/creative-studio/Drama Club Product 2.png`,
+        imageUrl: "/images/creative-studio/Drama Club Product 2.png",
         title: "Drama Club Product 2",
         year: "2023",
         organization: "Drama Club",
@@ -47,7 +45,7 @@ const visualDesignProjects: VisualDesignProject[] = [
       },
       {
         id: "dcm-3",
-        imageUrl: `${BASE_URL}images/creative-studio/Drama Club Product 3.png`,
+        imageUrl: "/images/creative-studio/Drama Club Product 3.png",
         title: "Drama Club Product 3",
         year: "2023",
         organization: "Drama Club",
@@ -56,7 +54,7 @@ const visualDesignProjects: VisualDesignProject[] = [
       },
       {
         id: "dcm-4",
-        imageUrl: `${BASE_URL}images/creative-studio/Drama Club Product 4.png`,
+        imageUrl: "/images/creative-studio/Drama Club Product 4.png",
         title: "Drama Club Product 4",
         year: "2023",
         organization: "Drama Club",
@@ -65,7 +63,7 @@ const visualDesignProjects: VisualDesignProject[] = [
       },
       {
         id: "dcm-5",
-        imageUrl: `${BASE_URL}images/creative-studio/Drama Club Product 5.png`,
+        imageUrl: "/images/creative-studio/Drama Club Product 5.png",
         title: "Drama Club Product 5",
         year: "2023",
         organization: "Drama Club",
@@ -81,7 +79,7 @@ const visualDesignProjects: VisualDesignProject[] = [
     items: [
       {
         id: "hcm-1",
-        imageUrl: `${BASE_URL}images/creative-studio/Herstory Product 1.png`,
+        imageUrl: "/images/creative-studio/Herstory Product 1.png",
         title: "Herstory Product 1",
         year: "2022",
         organization: "Herstory Club",
@@ -90,7 +88,7 @@ const visualDesignProjects: VisualDesignProject[] = [
       },
       {
         id: "hcm-2",
-        imageUrl: `${BASE_URL}images/creative-studio/Herstory Product 2.png`,
+        imageUrl: "/images/creative-studio/Herstory Product 2.png",
         title: "Herstory Product 2",
         year: "2022",
         organization: "Herstory Club",
@@ -106,7 +104,7 @@ const visualDesignProjects: VisualDesignProject[] = [
     items: [
       {
         id: "pd-1",
-        imageUrl: `${BASE_URL}images/creative-studio/Poster for Hamlet.jpg`,
+        imageUrl: "/images/creative-studio/Poster for Hamlet.jpg",
         title: "Poster for Hamlet",
         year: "2024",
         organization: "Literary Arts",
@@ -115,7 +113,7 @@ const visualDesignProjects: VisualDesignProject[] = [
       },
       {
         id: "pd-2",
-        imageUrl: `${BASE_URL}images/creative-studio/Poster for Orchestra.png`,
+        imageUrl: "/images/creative-studio/Poster for Orchestra.png",
         title: "Poster for Orchestra",
         year: "2024",
         organization: "School Orchestra",
