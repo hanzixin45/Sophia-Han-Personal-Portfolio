@@ -15,7 +15,7 @@ export const profile = {
     "Fragrance Designer",
   ],
   // 主图 placeholder - 后续替换为真实照片链接
-  heroImage: "/Materials/Portfolio/Portfolio.jpg",
+  heroImage: "/images/about/Portfolio.jpg",
 }
 
 export const bioParagraphs = [
